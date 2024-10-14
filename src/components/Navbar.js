@@ -1,3 +1,5 @@
+import icon from "../assets/images/menu.png";
+
 // Navbar Component
 function Navbar() {
     return (
@@ -9,6 +11,7 @@ function Navbar() {
           <li>About |</li>
           <li>Contact</li>
         </ul>
+        <img src={icon} alt="Menu Bar" />
       </nav>
     )
   }
